@@ -1,0 +1,19 @@
+{
+  "name": "user",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.1.0",
+    "jest-puppeteer": "^5.0.4",
+    "puppeteer": "^10.2.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.26.0"
+  },
+  "scripts": {"test": "playwright test"},
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
