@@ -1,4 +1,4 @@
-запуск тестов - npx playwright test
+**H2 запуск тестов - npx playwright test
 запуск конкретного теста - npx playwright test - g "nameTest"
 режим дебага -npx playwright test --debug
 запустить в конкретном браузере -n px playwright test --project=webkit//chronium//firefox
