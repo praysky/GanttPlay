@@ -9,10 +9,12 @@
     "puppeteer": "^10.2.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "@playwright/test": "^1.26.0"
   },
-  "scripts": {"test": "playwright test"},
-  
+  "scripts": {
+    "test": "playwright test"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
