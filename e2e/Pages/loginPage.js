@@ -1,5 +1,5 @@
 import { faker } from '@faker-js/faker';
- class Locators{
+ class LoginPage{
     constructor (page) {
         this._page = page
     }
@@ -61,4 +61,4 @@ get urlMainPage(){
 //345534
 //454545
 }
- module.exports = Locators
+ module.exports = LoginPage

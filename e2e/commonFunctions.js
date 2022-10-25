@@ -4,8 +4,11 @@ class CommonFunctions{
     }
 //Generator email
 
+//Api url prod
 
-
+get urlApiProd(){
+    return "https://api.ganttpro.com/v1.0/"
+}
 
 }
 module.exports = CommonFunctions

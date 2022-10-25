@@ -1,7 +1,6 @@
 
 const { test, expect } = require('@playwright/test');
-//const { inputEmail, inputPassword, buttonLoginInPopup } = require('../loginLocators/loginLocators');
-let Locator = require('../loginLocators/loginLocators');
+let Locator = require('../Pages/loginPage');
 import { faker } from '@faker-js/faker';
 
 
@@ -15,7 +14,7 @@ import { faker } from '@faker-js/faker';
 test('Id 2: sign in', async ({ page }) => {
   const locator = new Locator(page)
   await page.goto('https://ganttpro.com/en/#/login');
-  await expect(page).toHaveScreenshot()
+  //await expect(page).toHaveScreenshot()
   await locator.inputEmail.fill(locator.email)
   await locator.inputPassword.fill(locator.passwordValue)
   
@@ -28,7 +27,7 @@ test('Id 2: sign in', async ({ page }) => {
   
 
 });
-test.only('Id 1: sign up', async ({ page }) => {
+test('Id 1: sign up', async ({ page }) => {
   const locator = new Locator(page)
 await page.goto(locator.urlMainPage)
   await locator.buttonSignUpLoginPage.click()
