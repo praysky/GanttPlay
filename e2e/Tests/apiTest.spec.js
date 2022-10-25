@@ -37,13 +37,13 @@ expect(apiPage.task.item.name).toBe("xxx")
 expect(req.ok()).toBeTruthy()
 })
 
-test('Get a task', async ({request}) =>{
-  console.log(apiPage.task)
-  const task = await apiPage.getTaskById(request, )
-  //let taskObject2 = await task.json()
-  console.log(task)
-  expect(task.item.id).toBe(apiPage.task.item.id)
-  //expect(req.ok()).toBeTruthy()
-  })
+// test('Get a task', async ({request}) =>{
+//   console.log(apiPage.task)
+//   const task = await apiPage.getTaskById(request, )
+//   //let taskObject2 = await task.json()
+//   console.log(task)
+//   expect(task.item.id).toBe(apiPage.task.item.id)
+//   //expect(req.ok()).toBeTruthy()
+//   })
   
 

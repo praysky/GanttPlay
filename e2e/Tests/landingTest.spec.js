@@ -3,7 +3,7 @@ const { request } = require('@playwright/test');
 let LandingPage = require('../Pages/landingPage');
 let CommonFunctions = require('../commonFunctions')
 
-test('Id 3', async ({ page }) => {
+test('open main page', async ({ page }) => {
     const landingPage = new LandingPage(page)
     await page.goto(landingPage.urlMainPage)
     await expect(page).toHaveTitle(/GanttPRO/)
