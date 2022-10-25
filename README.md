@@ -1,3 +1,4 @@
+!!!
 запуск тестов - `npx playwright test`  
 запуск конкретного теста - `npx playwright test - g "nameTest"`  
 режим дебага - `npx playwright test --debug`  
